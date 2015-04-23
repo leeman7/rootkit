@@ -1,0 +1,23 @@
+.\" manpage for rootkit
+.\" contact lrn12@txstate.edu for further info
+.TH man 8 "4/23/2015" "1.0" "rootkit man page"
+.SH NAME
+rootkit - This is a rootkit used to investigate and learn about other systems. Please
+use this kit with discretion when on other systems. 
+.SH SYNOPSIS
+rootkit [FLAGS]...[OPTIONS]...
+.SH DESCRIPTION
+httpdaemon will be start once the socket has been bound to as well as checking for new connection.
+Once this is done the process will fork, allowing users to make requests for files. 
+If a valid connection is accepted the server will log the connection and requested file. 
+.SH OPTIONS
+1. Mini-Shell
+2. Scripts
+3. Documents
+4. Logs
+.SH FILES
+Rootkit Hirarchy
+.SH BUGS
+[BUGS]
+.SH AUTHOR
+Lee Nardo (lrn12@txstate.edu)
